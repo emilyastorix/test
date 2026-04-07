@@ -36,16 +36,16 @@
         look-controls="enabled: false"
       ></a-camera>
 
-    <!-- 👓 GAFAS (ROTACIÓN FINAL) -->
-    <a-entity mindar-face-target="anchorIndex: 168">
-      <a-gltf-model
-      src="#gafasModel"
-      rotation="-90 0 90"
-      position="0 -0.03 0.02"
-      scale="0.15 0.15 0.15"
-    >
-    </a-gltf-model>
-  </a-entity>
+      <!-- 👓 GAFAS (ARREGLADAS) -->
+      <a-entity mindar-face-target="anchorIndex: 168">
+        <a-gltf-model
+          src="#gafasModel"
+          rotation="-90 90 0"   <!-- 🔥 corregido (antes estaba mal orientado) -->
+          position="0 -0.03 0.02"
+          scale="0.15 0.15 0.15"  <!-- 🔥 reducido bastante -->
+        >
+        </a-gltf-model>
+      </a-entity>
 
       <!-- 🧔 BIGOTE -->
       <a-entity mindar-face-target="anchorIndex: 2">
